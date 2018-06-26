@@ -1,0 +1,48 @@
+LIKE UNDERHANDED COMPETITION
+
+
+
+Redeployed, with variations
+
+
+Etherscan should ban their bytecode? blacklist?
+
+
+I recently got fooled by "private bank", basically I was browsing etherscan, randomly opened it, and noticed it was vulnerable (on the surface) to the classic reentrancy problem that has been written just about everywhere. So I thought I'd try to rescue the funds before a hacker got them, then return them to the contract creator immediately. Oh boy that was a mistake, but I should have known better. You can read the whole story here https://www.reddit.com/r/ethdev/comments/7x5rwr/tricked_by_a_honeypot_contract_or_beaten_by/ Including ethical discussion and some technical details. It was a few days of some very good learning experiences. One handy tool I have been made aware for testing is Ganache-cli. You can use it to create a private fork of the mainnet then you can connect it to metamask and try out different contracts / dapps on the mainnet without actually risking or spending anything, useful to see what the contracts will do. See https://github.com/trufflesuite/ganache-cli
+
+
+https://www.reddit.com/r/ethereum/comments/7xvoui/exposing_ethereum_honeypots/dubooa6/ ->  View subtraces so that you can see tx even wihtout etherscan https://etherscan.io/vmtrace?txhash=0x4785aeb3b79713642555fcf7d94c5b2fc893d567bc3e132e6b6c79fe4f212c84&type=parity
+
+
+Quantstamp is working on an automated blockchain scanner that looks for this stuff
+
+Why does creating a struct (even if I’m storage) overwrite other data in storage. Shouldn’t the struct just be appended to the end of the contracts current storage (seeing as the storage boils down to a map it’s not like they ran out of addresses)? And the link you gave that goes to the solidity guide (which I’ve read up and done countless times) doesn’t say much about this vulnerability.
+
+https://medium.com/cryptronics/storage-allocation-exploits-in-ethereum-smart-contracts-16c2aa312743
+Uninitialized storage pointer > https://www.reddit.com/r/ethereum/comments/7xvoui/exposing_ethereum_honeypots/duda5tt/
+In my contract work I try to stay away from structs due to how ambiguous the docs are and so I would love to hear from you since you seem to get it more than I do. Also, the only place I use structs currently is within maps with the struct as the data, or as data within an array I push to. I assume those are safe or is there some security concern I should take into account?
+
+
+use testrpc fork feature!
+
+use etherchain instead of etherscan. more detail 
+
+My theory is that the TransferLog makes the transaction "throw" without logging an error (through assembly) so all the blockchain tracker sees is that Ether was sent and the transaction didn't log an error, therefore showing the transaction as a success with Ether transferred.
+    https://ethereum.stackexchange.com/questions/8634/does-an-entire-transaction-revert-when-throw-occurs
+    https://ethereum.stackexchange.com/questions/1020/exception-in-contract-reverts-entire-stack-uses-all-gas/1021#1021 
+
+Ethics behind this? 
+
+Good question! It would depend on local laws whenever it's a crime or not, and some jurisdictions can have very weird crime laws, but probably there is no laws for this. The real question is whenever it's moral. I think in this case it's more like he invited me to a game of chess and I lost, my knowledge and experience was no match. I've gained experience and also have been entertained, realizing my own foolishness!
+
+"Sir, I would like to report a crime. I tried to hack a random smart contract which I thought was vulnerable to a reentrancy attack. Instead, due to my folly, the contract hacked me and took my ETH".
+
+
+The situation kind of reminds me of a scene out of Big Lebowski, where the dude reports his car stolen, If you're familiar with the movie. Probably I should mention my Credence tapes. 
+https://www.reddit.com/r/ethdev/comments/7x5rwr/tricked_by_a_honeypot_contract_or_beaten_by/du9jr7e/
+
+
+
+People don't necessarily know what you are talking about here. You should define that a "honeypot" is trap built by programmers to try and catch people taking advantage of bugs, for example reentrancy in this case. You should mention that a "Contract Honeypot" may be something like a contract with a ton of funds in it, just begging someone to try and steal those funds.
+
+how are viruses categorized? influence

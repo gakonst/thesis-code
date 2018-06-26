@@ -1,0 +1,37 @@
+{
+    "VM06" : {
+        "private_key" : "0xb990ef98c445fbed6633be202883133c6a87b225e9f67f609618757fa4ead4a2",
+        "public_key" : "0xc67d8f1313de6087b0377d5437e2b59421d8f44b",
+        "formula" : "ELT01+ELT02+ELT03"
+    },
+    "VM03" : {
+        "public_key" : "0x349ee9357ceb3926b6bc15a953cdc7bcce34157f",
+        "private_key" : "0x76ba056e2987cac9e57dd51a258fa9fb47fcf66c00a5e188e3cef150ed42e513",
+        "formula" : "ELT01+ELT04+ELT03"
+    },
+    "VM07" : {
+        "private_key" : "0x6fb4e9d0fcba070d9a963791a2a5576171a2a77a0fe4ef222f6ca55339d53239",
+        "public_key" : "0x23924717434c09b22d695d86c4592f31ca438a8e",
+        "formula" : "ELT05+ELT07+ELT02"
+    },
+    "VM01" : {
+        "private_key" : "0x21ec54839cd3fcd493f1db5e7e76c37fddaf9e1ab122cf7aa572635b29fea3f8",
+        "public_key" : "0xa2c7b4ece8fde0e694204a50dc1177711743bae1",
+        "formula" : "ELT04+ELT01+ELT07"
+    },
+    "VM05" : {
+        "private_key" : "0x1965fad2703ad85d5cf2180b7cf963c03441b557e796ac42c0ee047402f9b0fc",
+        "public_key" : "0xe8afa142961768848f4fb7ea3d4c1901ac04432e",
+        "formula" : "ELT04+ELT05+ELT08"
+    },
+    "VM04" : {
+        "public_key" : "0xc8551d26a53c50ba3dbb5b45c54d9b1c18227c50",
+        "private_key" : "0xe4adc9141f0710641bc5cc63d9b3da5e8917c5bcef523920d6f67576be4103d2",
+        "formula" : "ELT10+ELT09+ELT08"
+    },
+    "VM02" : {
+        "private_key" : "0xc2dc0d73394adeae45b660e36f521f2ac4ca041a2a558fa46e969167b7910738",
+        "public_key" : "0x15b05158e16e5b76087daf2199c2e8fd7fd8e706",
+        "formula" : "ELT08+ELT03+ELT07"
+    }
+}

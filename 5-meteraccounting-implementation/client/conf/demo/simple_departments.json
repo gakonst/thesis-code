@@ -1,0 +1,86 @@
+{
+    "HRE" : {
+        "headcount": 75,
+        "subdepartments": [ 
+            "HRE::2W", "HRE::4W", "HRE::Admin", 
+            "HRE:PP", "HRE::2WGenteki"
+        ]
+    },
+
+    "HRI": { 
+        "headcount" : 25,
+        "virtualmeters" : [
+            "VM01", "VM02"
+        ]
+    },
+
+    "AdminAll" : {
+        "delegates" : [ "HRI", "HRE"],
+        "subdepartments" : [ 
+            "AdminAll::Canteen"
+        ]
+    },
+
+
+
+
+
+    "HRE::2W" : {
+        "headcount": 25,
+        "virtualmeters": ["VM01" ]
+    },
+
+
+    "HRE::4W" : {
+        "headcount": 70,
+        "subdepartments" : [ 
+            "HRE::4W::Genteki4W",
+            "HRE::4W::Overhead"
+        ]
+    },
+
+    "HRE::PP" : {
+        "headcount":5,
+        "virtualmeters": ["VM02"]
+    },
+
+    "HRE::Admin": {
+        "subdepartments": [
+            "HRE::Admin::CIS"
+        ],
+        "delegates": [
+            "HRE::4W", 
+            "HRE::2W", 
+            "HRE::PP"
+        ]
+    },
+
+    "HRE::2WGenteki" : {
+        "delegates": [ 
+            "HRE::4W::Genteki4W", 
+            "HRE::2W" 
+        ],
+        "virtualmeters" : [ "VM03" ]
+    },
+
+
+
+
+
+
+    "HRE::4W::Genteki4W": {
+        "virtualmeters" : ["VM04"]
+    }, 
+
+    "HRE::4W::Overhead": {
+        "virtualmeters" : ["VM05"]
+    }, 
+
+    "HRE::Admin::CIS": {
+        "virtualmeters": ["VM06"]
+    },
+
+    "AdminAll::Canteen":  {
+        "virtualmeters": ["VM07"]
+    }
+}

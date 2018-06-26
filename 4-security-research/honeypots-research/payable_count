@@ -1,0 +1,49 @@
+./delegate-call/firstTest.sol:    function()payable{
+./delegate-call/firstTest.sol:    payable public
+./var-overflow/Test1.sol:    payable
+./var-overflow/Test1.sol:    function() payable {}
+./var-overflow/Test1.sol:    payable
+./internal-transaction/NEW_YEARS_GIFT.sol:	function() public payable{}
+./internal-transaction/NEW_YEARS_GIFT.sol:    payable
+./internal-transaction/NEW_YEARS_GIFT.sol:    payable
+./internal-transaction/NEW_YEARS_GIFT.sol:    payable
+./internal-transaction/Gift_1_ETH.sol:    function()payable{}
+./internal-transaction/Gift_1_ETH.sol:    payable
+./long-line/TestToken.sol:    function deposit() payable returns (bool success) {
+./long-line/TestToken.sol:    function withdraw(uint256 _value) payable returns (bool success)  {
+./long-line/TestToken.sol:    function withdrawAll () payable{
+./long-line/WhaleGiveaway1.sol:    payable
+./long-line/WhaleGiveaway1.sol:    payable
+./long-line/WhaleGiveaway1.sol:    payable
+./long-line/WhaleGiveaway1.sol:    payable
+./owner-variations/MyNewBank.sol:    function() payable {
+./owner-variations/MyNewBank.sol:    function deposit() payable {
+./owner-variations/TestBank.sol:    function() public payable {
+./owner-variations/TestBank.sol:    function deposit() public payable {
+./owner-variations/TestBank.sol:    function useEmergencyCode(uint256 code) public payable {
+./owner-variations/KingOfTheHill.sol:    function() public payable {
+./uninitialized-storage-pointer/GuessNumber.sol:  function guessNumber(uint256 _number) public payable {
+./uninitialized-storage-pointer/GuessNumber.sol:  function() public payable { }
+./uninitialized-storage-pointer/OpenAddressLottery.sol:    function participate() payable {
+./uninitialized-storage-pointer/OpenAddressLottery.sol:    function () payable { //if someone sends money without any function call, just assume he wanted to participate
+./uncalled-function/SimpleEthBank.sol:    function() public payable {
+./uncalled-function/SimpleEthBank.sol:    function deposit() public payable {
+./uncalled-function/FREE_FOR_FUN.sol:    payable
+./uncalled-function/FREE_FOR_FUN.sol:    payable
+./uncalled-function/FREE_FOR_FUN.sol:    payable
+./uncalled-function/FREE_FOR_FUN.sol:    payable
+./uncalled-function/FREE_FOR_FUN.sol:    function() public payable{}
+./generic/DividendDistributorv3.sol:    function invest() public payable {
+./generic/DividendDistributorv3.sol:    function distributeDividends() public payable onlyOwner {
+./generic/DividendDistributorv3.sol:    function () public payable onlyOwner {
+./generic/SimplePrize.sol:    function SimplePrize(bytes32 _commitment) public payable {
+./generic/SimplePrize.sol:    function () public payable {}
+./generic/MultiplicatorX3.sol:    function() public payable{}
+./generic/MultiplicatorX3.sol:    payable
+./generic/MultiplicatorX3.sol:    payable
+./generic/MultiplicatorX3.sol:    payable
+./not-so-reentrant/ETH_FUND.sol:    payable
+./not-so-reentrant/ETH_FUND.sol:    payable
+./not-so-reentrant/ETH_FUND.sol:    function() public payable{}    
+./not-so-reentrant/PrivateBank.sol:    payable
+./not-so-reentrant/PrivateBank.sol:    function() public payable{}    

@@ -1,0 +1,22 @@
+{
+    "admin": {
+        "private_key" : "0xdbb19169308361c53316f2c233f608e2e68d3b056c136e7f7c5889680527e575",
+        "public_key" : "0x7a2291c5b2bdf2ad07aeeb72a255333cf1ec67dc"
+    },
+    "accountant" : {
+        "private_key" : "0xe57cae7440cb869bc03e89387ae30f2721b2351751bdcc3570c9e45f647b2826",
+        "public_key" : "0x378183ef2c9e891c6a1ee3f097b7a14f84a0dde9"
+    },
+    "meteroperator" : {
+        "public_key" : "0x2a8972145d2645ea777d7f77b051609f7d442ff3",
+        "private_key" : "0x3c5eae1304af73dd180edf2d6d092110073671d0f478509ef5ec687c2fac4a49"
+    },
+    "registryoperator" : {
+        "private_key" : "0x503accbb31116fbae0180b85bf55ecdfa11d33b6384b8732be0a628c6dad06f7",
+        "public_key" : "0x9b700578f307ad698db8aa09bb40794950a0dfc2"
+    },
+    "accountingoperator" : {
+        "public_key" : "0x4c7e850369f4f9d3e638f1fd985a02f05919e2e7",
+        "private_key" : "0xe4adbdcbdf3d3f6135c33ee8da19645634fe559fe89129daa4476644a358b800"
+    }
+}

@@ -1,0 +1,22 @@
+NR.,Audited Smart Contracts,Analyzed (Solidity only),Strict balance equity ,Byte array,Transfer forwards all gas,DoS by external contract,Token API violation,Costly loop,Integer division,Locked money,Malicous libraries,Compiler version not fixed,Private modifer ,Redundant fallback function,Re-entrancy,send instead of transfer,Style guide violation,Time-stamp dependence ,tx.origin usage,Unchecked external call,Unchecked math,Unsafe type inference,Implicit visibility level,Source of detailed results
+1,Hacker Gold (HKG),Yes,X,X,X,3,X,X,2,X,X,3,X,X,X,1,X,17,X,X,X,X,29,http://tool.smartdec.net/scan/0fce1a72cc0a4fcb8527b50b2e5a6fd1
+2,ArcadeCity (ARC),Yes,X,X,X,1,2,X,2,X,X,1,X,X,X,1,X,X,X,X,X,X,23,http://tool.smartdec.net/scan/8b58079655774e14b7938e6b1b11bd61
+3,Golem Network,Yes,X,X,X,3,X,X,X,X,X,1,X,X,1,2,X,2,X,X,X,X,11,http://tool.smartdec.net/scan/685d79a85a4b4e23a4c67993cdecdac6
+4,ProjectKudos,Yes,X,X,X,8,X,1,X,X,X,1,X,X,X,X,X,2,X,X,X,X,19,http://tool.smartdec.net/scan/4dd913de7deb4decb50b9ad42c639bfc
+5,SuperDAO Promissory,Yes,X,X,X,9,3,X,X,X,X,1,X,X,4,1,2,X,X,X,X,X,10,http://tool.smartdec.net/scan/ad22d6a01c374484b3a722d32420d632
+6,ROSCA ,Yes,X,X,X,2,X,4,1,X,X,1,X,X,X,2,X,4,X,1,X,X,4,http://tool.smartdec.net/scan/3316ce6234a04a61a8465283ec360841
+7,Matchpool GUP,Yes,X,X,X,X,X,X,X,X,X,1,X,X,X,X,X,3,X,X,X,X,19,http://tool.smartdec.net/scan/8c9d4c5d714d414fb40c10490e33399d
+8,iEx.ec RLC ,Yes,X,X,X,X,X,X,X,X,X,1,X,X,X,X,X,X,X,X,X,X,19,http://tool.smartdec.net/scan/15325bbdc7d2449eb3398155a324129d
+9,Cosmos,Yes,X,X,X,1,X,X,X,X,X,1,X,X,X,1,X,X,X,X,X,X,7,http://tool.smartdec.net/scan/ca33351cd31e44cc9c736d416817cf83
+10,Blockchain Capital  (BCAP),Yes,X,X,X,X,X,X,X,X,X,1,4,X,X,X,X,X,X,X,X,X,23,http://tool.smartdec.net/scan/320b1008e81f48819704b23a04346030
+11,WingsDAO,Yes,X,X,X,9,X,2,X,X,X,X,X,X,X,X,X,1,X,X,X,2,26,http://tool.smartdec.net/scan/bc690c5f905245a9bf54da49b714092b
+12,Moeda,Yes,X,X,X,X,1,X,X,X,1,1,X,X,1,X,X,X,X,X,X,X,17,http://tool.smartdec.net/scan/ad18303b5d924fe6a79afa5c5088c3dd
+13,Basic Attention,Yes,X,X,X,2,X,X,X,X,X,1,X,X,X,2,X,X,X,X,X,X,13,http://tool.smartdec.net/scan/42855db0b56c4340b3f5aa302fba473e
+14,Storj,Yes,X,X,X,5,X,X,X,X,X,X,X,X,1,X,X,X,X,X,X,X,15,http://tool.smartdec.net/scan/20347573559f4d83a7c852d467a89b67
+15,Metal,Yes,X,X,X,1,1,X,X,X,1,1,X,X,X,X,X,X,X,X,X,X,13,http://tool.smartdec.net/scan/e01cfdee77dc4b16bb213a0913cc0fb5
+16,Decentraland MANA,Yes,X,X,X,X,1,X,X,X,1,1,X,X,X,X,X,X,X,X,X,X,20,http://tool.smartdec.net/scan/c5003836bca74fdf8f922eb30536072c
+17,Tierion,Yes,X,X,X,X,3,X,X,X,1,1,X,X,X,X,X,X,X,X,X,X,20,http://tool.smartdec.net/scan/892ba3ef46b84df88fbbfea9bcce1d24
+18,Kin,Yes,X,X,X,3,X,4,1,X,1,1,X,X,7,X,X,7,X,X,X,X,13,http://tool.smartdec.net/scan/eba336d98db041678e453a22a8252bbf
+19,Fuel,Yes,X,X,X,1,X,1,X,X,X,1,X,X,X,X,X,2,X,X,X,X,19,http://tool.smartdec.net/scan/c18bde823b864c2d8c4285e47df46e04
+20,Enigma,Yes,X,X,X,X,3,X,X,X,1,1,X,X,X,X,X,X,X,X,X,X,6,http://tool.smartdec.net/scan/9a241108c56640f6b49fddb6b5a08812
+21,Global Messaging,Yes,X,X,X,1,X,1,X,X,X,X,X,X,1,X,X,X,X,X,X,X,X,http://tool.smartdec.net/scan/261dbb6cb1be4cfa9002bc7ee6bec866

@@ -1,0 +1,2 @@
+class NotAMeter(Exception):
+    pass

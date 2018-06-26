@@ -1,0 +1,43 @@
+NR.,Audited Smart Contract ,Analyzed,Bytecode/Solidity,Reason,EVM Code Coverage,Callstack Depth Attack Vulnerability,Timestamp dependence,Re-entrancy,TOD,Assertion Failure,Additional info
+1,Hacker Gold (HKG),Yes,Bytecode,,11.30%,FALSE,FALSE,FALSE,FALSE,/,
+,,Yes,Solidity,,11.30%,FALSE,TRUE,FALSE,FALSE,FALSE,/
+2,ArcadeCity (ARC),Yes,Bytecode (CLI),,32.10%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity (CLI),,84.30%,FALSE,FALSE,FALSE,FALSE,,
+3,Golem Network,No,Bytecode,No Bytecode Available,,,,,,,
+,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
+4,ProjectKudos,Yes,Bytecode (CLI),,28.30%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,28.70%,FALSE,FALSE,FALSE,FALSE,TRUE,/
+5,SuperDAO Promissory,Yes,Bytecode (CLI),,10.10%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,10.70%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.
+6,ROSCA ,No,Bytecode,No Bytecode Available,,,,,,,
+,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,
+7,Matchpool GUP,Yes,Bytecode (CLI),,5.40%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity (CLI),,56.10%,FALSE,FALSE,FALSE,FALSE,,
+8,iEx.ec RLC ,Yes,Bytecode,,6.80%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
+,,Yes,Solidity,,6.00%,FALSE,FALSE,FALSE,FALSE,FALSE,Failed the first time.
+9,Cosmos,Yes,Bytecode,,21.70%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,21.60%,FALSE,FALSE,FALSE,FALSE,FALSE,/
+10,Blockchain Capital  (BCAP),Yes,Bytecode,,99.70%,FALSE,FALSE,FALSE,FALSE,/,
+,,Yes,Solidity,,99.70%,FALSE,FALSE,FALSE,FALSE,FALSE,/
+11,WingsDAO,Yes,Bytecode,,14.40%,FALSE,FALSE,FALSE,FALSE,/,
+,,Yes,Solidity (CLI),,30.00%,FALSE,FALSE,FALSE,FALSE,,
+12,Moeda,Yes,Bytecode,,76.30%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,92.00%,FALSE,FALSE,FALSE,FALSE,TRUE,/
+13,Basic Attention,Yes,Bytecode,,42.90%,FALSE,FALSE,FALSE,TRUE,,
+,,Yes,Solidity,,90%,FALSE,FALSE,FALSE,TRUE,TRUE,/
+14,Storj,Yes,Bytecode,,99.90%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,99.90%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
+15,Metal,Yes,Bytecode,,11.10%,FALSE,FALSE,FALSE,FALSE,,Failed the first time.
+,,Yes,Solidity (CLI),,87.80%,FALSE,FALSE,FALSE,FALSE,,
+16,Decentraland MANA,Yes,Bytecode,,100.00%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity (CLI),,100.00%,FALSE,FALSE,FALSE,FALSE,,
+17,Tierion,Yes,Bytecode,,99.90%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,99.90%,FALSE,FALSE,FALSE,FALSE,TRUE,/
+18,Kin,Yes,Bytecode,,99.80%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity (CLI),,99.80%,FALSE,FALSE,FALSE,FALSE,,
+19,Fuel,Yes,Bytecode,,73.40%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity,,99.80%,FALSE,FALSE,FALSE,FALSE,TRUE,/
+20,Enigma,Yes,Bytecode,,99.70%,FALSE,FALSE,FALSE,FALSE,,
+,,Yes,Solidity (CLI),,99.70%,FALSE,FALSE,FALSE,FALSE,,
+21,Global Messaging,No,Bytecode,No Bytecode Available,,,,,,,
+,,No,Solidity (Web and CLI),import' compiler errors. ,,,,,,,

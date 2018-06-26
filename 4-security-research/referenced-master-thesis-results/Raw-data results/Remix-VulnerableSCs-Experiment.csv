@@ -1,0 +1,24 @@
+NR.,Vulnerable Smart Contract,Vulnerability/Bug,Analyzed (Solidity only),Unchecked-send bug,tx.origin usage,Re-entrancy,Inline assembly,Block timestamp,Low level calls,Blockhash usage,Gas costly patterns,this. on local calls,Constant functions,Similar variable names,Additional Info,SC Compiler version
+1,SimpleDao Sample compiler version 0.3.1,"Re-entrancy, call to the unkown",Yes ,X,X,1,X,X,X,X,1,X,1,X,Use of call - 1,0.3.1
+2,SimpleDao Sample compiler version 0.4.2,"Re-entrancy, call to the unkown",Yes ,2,X,1,X,X,X,X,9,X,3,X,,0.4.2
+3,King of the Ether game (KoET),"Unchecked-send bug, Gasless send, Mishandled exception",Yes ,4,X,1,X,2,X,X,8,X,X,X,,0.2.1-fad2d4df
+4,KotET Sample compiler version 0.3.1,Gasless send,Yes ,2,X,1,X,X,X,X,4,X,2,X,,0.3.1
+5,KotET Sample compiler version 0.4.2,Gasless send,Yes ,2,X,1,X,X,X,X,4,X,2,X,,0.4.2
+6,GovernMental (PonziGovernmental),"Unchecked-send bug, Call-stack limit",Yes ,7,X,1,X,4,X,X,15,X,4,X,,0.2.1-2016-01-30-91a6b35
+7,GovernMental simplified sample 0.3.1,"Immutable bugs, exception disorder, call-stack limit, unpredictable state ",Yes ,2,X,1,X,2,X,X,1,X,X,X,,0.3.1
+8,Rubixi ,"Immutable bugs, wrong constructor name",Yes ,4,X,4,X,X,X,X,16,X,X,X,,0.2.1-2016-01-30-91a6b35
+9,FirePonzi,Type casts (intentional scam),Yes ,3,X,1,X,X,X,X,9,X,X,4,,0.3.1-2016-04-07-054bc2a
+10,Parity Multisig,Unintended function exposure,Yes ,X,X,2,1,1,X,X,20,X,3,19,"Use of call - 1 , Use of delegatecall - 3",0.4.6
+11,GoodFellas,Typo (wrong constructor name),Yes ,4,X,1,X,X,X,X,9,X,X,X,,0.2.1-2016-01-30-91a6b35
+12,StackyGame,Typo (wrong constructor name),Yes ,3,X,2,X,X,X,X,10,X,X,X,,0.3.1-2016-04-12-3ad5e82
+13,DynamicPyramid,Contract that do not refund,Yes ,4,X,4,X,X,X,X,15,X,X,X,,0.2.1-2016-01-30-91a6b35
+14,GreedPit,Contract that do not refund,Yes ,5,X,2,X,3,X,X,24,X,1,6,,0.3.0-2016-03-11-1f9578c
+15,NanoPyramid,Contract that do not refund,Yes ,3,X,1,X,X,X,X,10,X,X,7,Use of call - 1,0.3.1-2016-04-12-3ad5e82
+16,Tomeka,Contract that do not refund,Yes ,4,X,4,X,X,X,X,15,X,X,X,,0.2.1-2016-01-30-91a6b35
+17,ProtectTheCastle,"Call-stack limit, Withdraw option",Yes ,13,X,1,X,4,X,X,18,X,X,X,,0.3.1-2016-04-12-3ad5e82
+18,RockPaperScissors (RPS),Public moves,Yes ,7,X,2,X,1,X,X,4,X,X,X,,0.3.1-2016-04-12-3ad5e82
+19,SmartBillions,Blockhash bug,Yes ,X,X,3,X,X,X,12,57,X,3,7,,^0.4.13;
+20,EtherPot,Unchecked-send bug,Yes ,2,X,2,X,X,X,1,17,X,2,X,,0.4.3
+21,TheRun,Timestamp dependence,Yes ,6,X,4,X,1,X,X,13,X,1,1,,Not known
+22,OddsAndEvents Compiler 0.3.1 Sample,Keeping secrets,Yes ,3,X,1,X,X,X,X,2,X,X,X,,0.3.1
+23,OddsAndEvents Compiler 0.4.2 Sample,Keeping secrets,Yes ,3,X,1,X,X,X,X,1,X,X,X,,0.4.2
