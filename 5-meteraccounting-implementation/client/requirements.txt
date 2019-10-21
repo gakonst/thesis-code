@@ -94,7 +94,7 @@ urllib3==1.22
 watchdog==0.8.3
 wcwidth==0.1.7
 web3==4.0.0b11
-Werkzeug==0.14.1
+Werkzeug==0.15.3
 z3-solver==4.5.1.0.post2
 zc.lockfile==1.2.1
 ZConfig==3.2.0
