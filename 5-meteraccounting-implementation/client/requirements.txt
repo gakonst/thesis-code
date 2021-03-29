@@ -68,7 +68,7 @@ py-solc==2.1.0
 pycparser==2.18
 pycryptodome==3.5.1
 pyethash==0.1.27
-Pygments==2.2.0
+Pygments==2.7.4
 pylru==1.0.9
 pyparsing==2.2.0
 pysha3==1.0.2
