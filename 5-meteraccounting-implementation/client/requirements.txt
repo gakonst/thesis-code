@@ -59,7 +59,7 @@ populus==2.2.0
 prettytable==0.7.2
 prompt-toolkit==1.0.15
 ptyprocess==0.5.2
-py==1.5.3
+py==1.10.0
 py-ecc==1.4.2
 py-expression-eval==0.3.4
 py-flags==1.1.2
